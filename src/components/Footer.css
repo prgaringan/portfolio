@@ -1,0 +1,36 @@
+.Footer {
+  padding-bottom: 20px;
+}
+
+.Footer h1 {
+  font-family: "Bebas";
+  font-size: 70px;
+  color: #424343;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 100px;
+}
+
+
+.column {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+

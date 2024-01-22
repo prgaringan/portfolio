@@ -1,0 +1,142 @@
+.Header {
+    text-align: center;
+}
+
+.Header h1 {
+    color: #434343;
+    text-align: center;
+    font-family: 'SFLight';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Header h2 {
+    color: #424343;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Bebas";
+    font-size: 130px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Header h3 {
+    font-family: "Bebas";
+    font-size: 120px;
+    line-height: normal;
+    text-align: center;
+    color: #ffffff;
+    /* Set the color of the text */
+    -webkit-text-stroke: 0.1px  #434343;
+    /* Width and color of the stroke for WebKit browsers (Chrome, Safari) */
+}
+
+.Profile  {
+    margin-top: -220px;
+    width: 630px;
+    height: 580px;
+}
+
+
+@media (max-width:1000px) {
+
+    
+    .Header h1 {
+        font-size: 35px;
+    }
+   
+    .Header h2 {
+        font-size: 110px;
+    }
+
+    .Header h3 {
+        font-size: 110px;
+    
+    }
+
+}
+
+
+
+@media (max-width:850px) {
+
+    .Profile  {
+        margin-top: -160px;
+        width: 510px;
+        height: 480px;
+    }
+    
+    .Header h1 {
+        font-size: 35px;
+    }
+
+    .Header h2 {
+        font-size: 90px;
+    }
+
+    .Header h3 {
+        font-size: 90px;
+        color: #ffffff;
+        /* Set the color of the text */
+        -webkit-text-stroke: 0.02px #434343;
+        /* Width and color of the stroke for WebKit browsers (Chrome, Safari) */
+    }
+
+}
+
+@media (max-width:750px) {
+
+    .Profile  {
+        margin-top: -125px;
+        width: 400px;
+        height: 380px;
+    }
+    .Header h1 {
+        font-size: 25px;
+    }
+
+    .Header h2 {
+        font-size: 70px;
+    }
+
+    .Header h3 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width:450px) {
+
+    .Profile  {
+        margin-top: -100px;
+        width: 200px;
+        height: 200px;
+    }
+    .Header h1 {
+        font-size: 15px;
+    }
+
+    .Header h2 {
+        font-size: 50px;
+    }
+
+    .Header h3 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:375px) {
+    .Header h1 {
+        font-size: 15px;
+    }
+
+    .Header h2 {
+        font-size: 30px;
+    }
+
+    .Header h3 {
+        font-size: 30px;
+    }
+}

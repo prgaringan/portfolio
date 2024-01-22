@@ -1,0 +1,176 @@
+.MyWork {
+  padding-bottom: 10px;
+}
+
+.MyWork h1 {
+  font-family: "Bebas";
+  font-size: 70px;
+  color: #424343;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 100px;
+}
+
+.DriversLOG {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #FDBB17;
+}
+
+.InfoFleet {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #1E1E2D;
+}
+
+
+.Raktherm {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #FFFFF9;
+}
+
+
+.InfoFleet .column p {
+  color: #FFFFF9;
+
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 10px;
+}
+
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 55%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.column p {
+  margin: 30px;
+  font-size: 3.5vh;
+  color: #1e1e1e;
+  font-family: "SFLight";
+  text-align: center;
+}
+
+.column h2 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 3.5vh;
+}
+
+.column a {
+  font-family: "SFBold";
+  font-size: 5vh;
+  margin-top: 20px;
+  color: #1e1e1e;
+  text-decoration: none;
+  text-align: center;
+}
+
+.column .store {
+  width: 250px;
+  height: 90px;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.column img {
+  width: 559px;
+  height: 146px;  
+}
+
+.column-store {
+  display: flex;
+  margin: 30px 0px 0px;
+}
+
+.column .Dvrg-Scrnshot {
+  width: 330px;
+  height: 620px;
+}
+
+
+
+@media (max-width:850px) {
+
+  .column .store {
+    width: 150px;
+    height: 60px;
+
+  }
+
+  .column img {
+    width: 300px;
+    height: 100px;
+  }
+
+  .MyWork {
+    margin: 10px;
+
+  }
+
+  .MyWork h1 {
+    font-size: 50px;
+    margin: 0px 0px 10px 50px;
+  }
+}
+
+@media (max-width:750px) {
+  .column p {
+    font-size: 3vh;
+    color: #1e1e1e;
+    font-family: "SFLight";
+    text-align: center;
+  }
+
+  .column img {
+    width: 300px;
+    height: 100px;
+  }
+
+  .column .store {
+    width: 150px;
+    height: 60px;
+
+  }
+
+  .MyWork {
+    margin: 10px;
+  }
+
+  .column .Dvrg-Scrnshot {
+    width: 250px;
+    height: 470px;
+  }
+
+}
