@@ -45,7 +45,10 @@
 
 @media (max-width:850px) {
   
-    
+    .AboutMe {
+        margin: 0px 0px;
+        padding: 0px;
+    }
     .AboutMe p {
         font-family: "SFLight";
         font-size: 20px;
@@ -108,4 +111,37 @@
         font-size: 25px;
     }
 
+}
+
+
+
+@media (max-width:375px) {
+    .AboutMe {
+        margin: 0px 50px;
+        padding: 20px;
+    }
+    
+    .AboutMe h1 {
+        font-family: "Bebas";
+        font-size: 25px;
+        color: #424343;
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0px 0px 10px 10px;
+    }
+
+    .AboutMe p {
+        font-family: "SFLight";
+        font-size: 10px;
+        color: #424343;
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0px 0px 0px 0px
+    }
+    
+ 
 }

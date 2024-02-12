@@ -20,7 +20,7 @@ const AboutMe = () => {
 
             <h1>ABOUT ME</h1>
             <p>
-                With over <b>four years of hands-on experience</b> as a front-end developer in the United Arab Emirates, I specialize in creating visually stunning and highly functional mobile applications and websites.
+                With over <b>four years of hands-on experience</b> as a Software Developer in the United Arab Emirates, I specialize in creating visually stunning and highly functional mobile applications and websites.
               <br></br>
               <br></br>
                 Notable works include the <b>Driverslog Landing Website and Mobile App</b>, and the <b>Raktherm Mobile Application</b>. 

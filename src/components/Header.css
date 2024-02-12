@@ -111,15 +111,15 @@
 
     .Profile  {
         margin-top: -100px;
-        width: 200px;
-        height: 200px;
+        width: 270px;
+        height: 250px;
     }
     .Header h1 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .Header h2 {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .Header h3 {
@@ -128,12 +128,18 @@
 }
 
 @media (max-width:375px) {
+
+    .Profile  {
+        margin-top: -60px;
+        width: 200px;
+        height: 190px;
+    }
     .Header h1 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .Header h2 {
-        font-size: 30px;
+        font-size:30px;
     }
 
     .Header h3 {
